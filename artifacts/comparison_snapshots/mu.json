@@ -1,0 +1,119 @@
+{
+  "current_candle": {
+    "close": 974.3300170898438,
+    "daily_change_absolute": 37.22003173828125,
+    "daily_change_pct": 3.9717890450519544,
+    "date": "2026-08-20",
+    "gap_absolute": -1.1099853515625,
+    "gap_pct": -0.11844771359960093,
+    "high": 977.280029296875,
+    "low": 929.0700073242188,
+    "open": 936.0
+  },
+  "fundamental_risk_context": {
+    "cash": {
+      "definition": "Cash and cash equivalents reported by yfinance.",
+      "source_row": "CashAndCashEquivalents",
+      "value": 24995000000.0
+    },
+    "net_position": {
+      "amount": 18619000000.0,
+      "derivation": "cash - total_debt",
+      "kind": "net_cash"
+    },
+    "report_age_days": 81,
+    "report_date": "2026-05-31",
+    "reporting_currency": "USD",
+    "status": "available",
+    "total_debt": {
+      "definition": "Total debt reported directly by yfinance.",
+      "source_row": "TotalDebt",
+      "value": 6376000000.0
+    },
+    "warnings": []
+  },
+  "instrument": {
+    "exchange": "NasdaqGS",
+    "exchange_timezone": "America/New_York",
+    "market_currency": "USD",
+    "name": "Micron Technology, Inc.",
+    "ticker": "MU"
+  },
+  "metadata": {
+    "adjusted": true,
+    "as_of_session": "2026-08-20",
+    "data_quality_warnings": [],
+    "generated_at_utc": "2026-08-20T22:33:45.909311Z",
+    "interval": "1d",
+    "is_stale": false,
+    "market_data_age_days": 0,
+    "observation_count": 549,
+    "repaired": false,
+    "requested_as_of": "2026-08-20",
+    "source": "yfinance",
+    "source_version": "1.5.2"
+  },
+  "momentum": {
+    "return_1d_pct": 3.9717890450519544,
+    "return_20d_pct": -1.6037006827275935,
+    "return_5d_pct": 2.5794089004540943,
+    "rsi_14": 55.164099392121685
+  },
+  "price_structure": {
+    "distance_from_52w_high_pct": -22.352199834757137,
+    "high_20d": {
+      "date": "2026-08-17",
+      "price": 1036.1300048828125
+    },
+    "high_52w": {
+      "date": "2026-06-25",
+      "price": 1254.8069810301963
+    },
+    "low_20d": {
+      "date": "2026-07-29",
+      "price": 737.8800048828125
+    },
+    "low_52w": {
+      "date": "2025-08-20",
+      "price": 113.2781877501083
+    },
+    "recent_confirmed_pivot_high": {
+      "date": "2026-08-17",
+      "price": 1036.1300048828125
+    },
+    "recent_confirmed_pivot_low": {
+      "date": "2026-08-11",
+      "price": 844.6199951171875
+    }
+  },
+  "schema_version": "0.1",
+  "trend": {
+    "sma_20": {
+      "direction": "rising",
+      "distance_pct": 8.991434208975036,
+      "slope_5d_pct": 1.1352313285211357,
+      "value": 893.9510009765625
+    },
+    "sma_200": {
+      "direction": "rising",
+      "distance_pct": 71.75282111421436,
+      "slope_5d_pct": 3.3901806024143166,
+      "value": 567.2861795043946
+    },
+    "sma_50": {
+      "direction": "flat",
+      "distance_pct": 1.1722734848978345,
+      "slope_5d_pct": 0.024100178999675315,
+      "value": 963.0405480957031
+    }
+  },
+  "volatility": {
+    "atr_14": 69.43477150734459,
+    "atr_14_pct": 7.126412025643458
+  },
+  "volume": {
+    "average_20d_prior": 40926720.0,
+    "latest": 25022451.0,
+    "relative_volume": 0.6113964422264966
+  }
+}

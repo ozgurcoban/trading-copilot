@@ -1,0 +1,119 @@
+{
+  "current_candle": {
+    "close": 311.29998779296875,
+    "daily_change_absolute": -5.529998779296875,
+    "daily_change_pct": -1.7454152112068244,
+    "date": "2026-08-20",
+    "gap_absolute": 0.625,
+    "gap_pct": 0.1972666813396584,
+    "high": 320.2799987792969,
+    "low": 310.6499938964844,
+    "open": 317.4549865722656
+  },
+  "fundamental_risk_context": {
+    "cash": {
+      "definition": "Cash and cash equivalents reported by yfinance.",
+      "source_row": "CashAndCashEquivalents",
+      "value": 39544000000.0
+    },
+    "net_position": {
+      "amount": 44800000000.0,
+      "derivation": "total_debt - cash",
+      "kind": "net_debt"
+    },
+    "report_age_days": 51,
+    "report_date": "2026-06-30",
+    "reporting_currency": "USD",
+    "status": "available",
+    "total_debt": {
+      "definition": "Total debt reported directly by yfinance.",
+      "source_row": "TotalDebt",
+      "value": 84344000000.0
+    },
+    "warnings": []
+  },
+  "instrument": {
+    "exchange": "NasdaqGS",
+    "exchange_timezone": "America/New_York",
+    "market_currency": "USD",
+    "name": "Apple Inc.",
+    "ticker": "AAPL"
+  },
+  "metadata": {
+    "adjusted": true,
+    "as_of_session": "2026-08-20",
+    "data_quality_warnings": [],
+    "generated_at_utc": "2026-08-20T22:33:49.013429Z",
+    "interval": "1d",
+    "is_stale": false,
+    "market_data_age_days": 0,
+    "observation_count": 549,
+    "repaired": false,
+    "requested_as_of": "2026-08-20",
+    "source": "yfinance",
+    "source_version": "1.5.2"
+  },
+  "momentum": {
+    "return_1d_pct": -1.7454152112068244,
+    "return_20d_pct": -3.137334628674593,
+    "return_5d_pct": 1.978633897044424,
+    "rsi_14": 49.048243397525724
+  },
+  "price_structure": {
+    "distance_from_52w_high_pct": -9.577602747941793,
+    "high_20d": {
+      "date": "2026-07-29",
+      "price": 344.2730974331505
+    },
+    "high_52w": {
+      "date": "2026-07-29",
+      "price": 344.2730974331505
+    },
+    "low_20d": {
+      "date": "2026-07-31",
+      "price": 299.7415030462749
+    },
+    "low_52w": {
+      "date": "2025-08-21",
+      "price": 222.9564077521854
+    },
+    "recent_confirmed_pivot_high": {
+      "date": "2026-08-06",
+      "price": 316.0174696892129
+    },
+    "recent_confirmed_pivot_low": {
+      "date": "2026-08-12",
+      "price": 300.57000732421875
+    }
+  },
+  "schema_version": "0.1",
+  "trend": {
+    "sma_20": {
+      "direction": "falling",
+      "distance_pct": -1.2903875710794988,
+      "slope_5d_pct": -1.3224603458577566,
+      "value": 315.3694763183594
+    },
+    "sma_200": {
+      "direction": "rising",
+      "distance_pct": 10.853097420533997,
+      "slope_5d_pct": 0.36699306898810846,
+      "value": 280.8220925140381
+    },
+    "sma_50": {
+      "direction": "rising",
+      "distance_pct": 0.5382634315041379,
+      "slope_5d_pct": 0.19461112457836993,
+      "value": 309.6333447265625
+    }
+  },
+  "volatility": {
+    "atr_14": 7.792851431748407,
+    "atr_14_pct": 2.5033253251943823
+  },
+  "volume": {
+    "average_20d_prior": 53044260.0,
+    "latest": 40891451.0,
+    "relative_volume": 0.7708930429041709
+  }
+}

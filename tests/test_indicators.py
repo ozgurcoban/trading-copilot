@@ -11,7 +11,13 @@ from trading_copilot.indicators import (
     wilder_atr,
     wilder_rsi,
 )
-from trading_copilot.models import MovingAverageDirection
+from trading_copilot.models import (
+    MovingAverageDirection,
+    MovingAverageMetric,
+    MomentumSnapshot,
+    PriceStructureSnapshot,
+    VolumeSnapshot,
+)
 
 from .helpers import make_ohlcv
 
@@ -103,3 +109,54 @@ def test_all_sections_are_populated_from_valid_daily_data() -> None:
     assert sections.price_structure.low_52w.price == pytest.approx(
         frame["Low"].iloc[-252:].min()
     )
+
+
+def test_distance_percentages_keep_latest_close_as_the_subject() -> None:
+    frame = make_ohlcv()
+    sections = calculate_technical_sections(frame)
+    latest_close = float(frame["Close"].iloc[-1])
+
+    for metric in (
+        sections.trend.sma_20,
+        sections.trend.sma_50,
+        sections.trend.sma_200,
+    ):
+        assert metric.distance_pct == pytest.approx(
+            ((latest_close / metric.value) - 1.0) * 100.0
+        )
+    assert sections.price_structure.distance_from_52w_high_pct == pytest.approx(
+        (
+            (latest_close / sections.price_structure.high_52w.price)
+            - 1.0
+        )
+        * 100.0
+    )
+
+    ma_description = MovingAverageMetric.model_fields["distance_pct"].description
+    high_description = PriceStructureSnapshot.model_fields[
+        "distance_from_52w_high_pct"
+    ].description
+    assert ma_description is not None and "Latest close relative" in ma_description
+    assert high_description is not None and "Latest close relative" in high_description
+
+
+def test_snapshot_descriptions_limit_volume_and_single_pivot_semantics() -> None:
+    volume_description = VolumeSnapshot.model_fields["relative_volume"].description
+    pivot_high_description = PriceStructureSnapshot.model_fields[
+        "recent_confirmed_pivot_high"
+    ].description
+    pivot_low_description = PriceStructureSnapshot.model_fields[
+        "recent_confirmed_pivot_low"
+    ].description
+
+    assert volume_description is not None and "relative activity only" in volume_description
+    assert pivot_high_description is not None and "single most recent" in pivot_high_description
+    assert pivot_low_description is not None and "single most recent" in pivot_low_description
+
+
+def test_rsi_schema_describes_momentum_not_buying_or_selling_pressure() -> None:
+    description = MomentumSnapshot.model_fields["rsi_14"].description
+
+    assert description is not None
+    assert "momentum oscillator" in description
+    assert "not direct buying pressure" in description

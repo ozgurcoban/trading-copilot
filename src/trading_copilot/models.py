@@ -68,7 +68,13 @@ class MovingAverageDirection(str, Enum):
 
 class MovingAverageMetric(FrozenModel):
     value: float = Field(gt=0)
-    distance_pct: float
+    distance_pct: float = Field(
+        description=(
+            "Latest close relative to this moving-average value, calculated as "
+            "((latest_close / value) - 1) * 100. Positive means the close is above "
+            "the moving average; negative means the close is below it."
+        )
+    )
     slope_5d_pct: float
     direction: MovingAverageDirection
 
@@ -80,7 +86,14 @@ class TrendSnapshot(FrozenModel):
 
 
 class MomentumSnapshot(FrozenModel):
-    rsi_14: float = Field(ge=0, le=100)
+    rsi_14: float = Field(
+        ge=0,
+        le=100,
+        description=(
+            "Fourteen-period RSI momentum oscillator. It describes momentum, not "
+            "direct buying pressure, selling pressure, or order flow."
+        ),
+    )
     return_1d_pct: float
     return_5d_pct: float
     return_20d_pct: float
@@ -89,7 +102,15 @@ class MomentumSnapshot(FrozenModel):
 class VolumeSnapshot(FrozenModel):
     latest: float = Field(ge=0)
     average_20d_prior: float = Field(ge=0)
-    relative_volume: float | None = Field(default=None, ge=0)
+    relative_volume: float | None = Field(
+        default=None,
+        ge=0,
+        description=(
+            "Latest volume divided by the prior 20-session average. It measures "
+            "relative activity only and does not identify intent, panic, "
+            "capitulation, accumulation, or distribution."
+        ),
+    )
 
 
 class VolatilitySnapshot(FrozenModel):
@@ -107,9 +128,26 @@ class PriceStructureSnapshot(FrozenModel):
     low_20d: DatedPriceLevel
     high_52w: DatedPriceLevel
     low_52w: DatedPriceLevel
-    distance_from_52w_high_pct: float
-    recent_confirmed_pivot_high: DatedPriceLevel | None = None
-    recent_confirmed_pivot_low: DatedPriceLevel | None = None
+    distance_from_52w_high_pct: float = Field(
+        description=(
+            "Latest close relative to the 52-week high, calculated as "
+            "((latest_close / high_52w.price) - 1) * 100."
+        )
+    )
+    recent_confirmed_pivot_high: DatedPriceLevel | None = Field(
+        default=None,
+        description=(
+            "The single most recent confirmed pivot high. One pivot does not "
+            "establish a sequence of lower or higher highs."
+        ),
+    )
+    recent_confirmed_pivot_low: DatedPriceLevel | None = Field(
+        default=None,
+        description=(
+            "The single most recent confirmed pivot low. One pivot does not "
+            "establish a sequence of lower or higher lows."
+        ),
+    )
 
 
 class FundamentalStatus(str, Enum):

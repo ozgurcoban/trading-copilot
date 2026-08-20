@@ -1,0 +1,119 @@
+{
+  "current_candle": {
+    "close": 21.190000534057617,
+    "daily_change_absolute": 0.3400001525878906,
+    "daily_change_pct": 1.6306961456464153,
+    "date": "2026-08-20",
+    "gap_absolute": -0.3000011444091797,
+    "gap_pct": -1.4388543833112055,
+    "high": 21.684999465942383,
+    "low": 20.510000228881836,
+    "open": 20.549999237060547
+  },
+  "fundamental_risk_context": {
+    "cash": {
+      "definition": "Cash and cash equivalents reported by yfinance.",
+      "source_row": "CashAndCashEquivalents",
+      "value": 1093311000.0
+    },
+    "net_position": {
+      "amount": 762165000.0,
+      "derivation": "cash - total_debt",
+      "kind": "net_cash"
+    },
+    "report_age_days": 51,
+    "report_date": "2026-06-30",
+    "reporting_currency": "USD",
+    "status": "available",
+    "total_debt": {
+      "definition": "Total debt reported directly by yfinance.",
+      "source_row": "TotalDebt",
+      "value": 331146000.0
+    },
+    "warnings": []
+  },
+  "instrument": {
+    "exchange": "NYSE",
+    "exchange_timezone": "America/New_York",
+    "market_currency": "USD",
+    "name": "First Majestic Silver Corp.",
+    "ticker": "AG"
+  },
+  "metadata": {
+    "adjusted": true,
+    "as_of_session": "2026-08-20",
+    "data_quality_warnings": [],
+    "generated_at_utc": "2026-08-20T22:33:47.439069Z",
+    "interval": "1d",
+    "is_stale": false,
+    "market_data_age_days": 0,
+    "observation_count": 549,
+    "repaired": false,
+    "requested_as_of": "2026-08-20",
+    "source": "yfinance",
+    "source_version": "1.5.2"
+  },
+  "momentum": {
+    "return_1d_pct": 1.6306961456464153,
+    "return_20d_pct": 28.917547127117025,
+    "return_5d_pct": 12.922989978415899,
+    "rsi_14": 67.94219083442826
+  },
+  "price_structure": {
+    "distance_from_52w_high_pct": -33.75114797419118,
+    "high_20d": {
+      "date": "2026-08-20",
+      "price": 21.684999465942383
+    },
+    "high_52w": {
+      "date": "2026-02-27",
+      "price": 31.98546070776071
+    },
+    "low_20d": {
+      "date": "2026-07-30",
+      "price": 14.098730289658153
+    },
+    "low_52w": {
+      "date": "2025-08-20",
+      "price": 8.373563382928184
+    },
+    "recent_confirmed_pivot_high": {
+      "date": "2026-08-12",
+      "price": 19.814162151733377
+    },
+    "recent_confirmed_pivot_low": {
+      "date": "2026-08-18",
+      "price": 18.469999313354492
+    }
+  },
+  "schema_version": "0.1",
+  "trend": {
+    "sma_20": {
+      "direction": "rising",
+      "distance_pct": 19.536516827751193,
+      "slope_5d_pct": 5.075637278710232,
+      "value": 17.726801061630248
+    },
+    "sma_200": {
+      "direction": "rising",
+      "distance_pct": 10.512890249209761,
+      "slope_5d_pct": 0.9437933292042677,
+      "value": 19.174234323501587
+    },
+    "sma_50": {
+      "direction": "rising",
+      "distance_pct": 22.68566244349415,
+      "slope_5d_pct": 1.0746722667842157,
+      "value": 17.271782302856444
+    }
+  },
+  "volatility": {
+    "atr_14": 1.063093952407194,
+    "atr_14_pct": 5.016960479536264
+  },
+  "volume": {
+    "average_20d_prior": 10902550.0,
+    "latest": 12138423.0,
+    "relative_volume": 1.113356324896469
+  }
+}

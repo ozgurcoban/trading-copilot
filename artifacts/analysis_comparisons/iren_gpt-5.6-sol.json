@@ -1,0 +1,66 @@
+{
+  "overall_bias": "mixed",
+  "overall_technical_picture": "Per den 20 augusti 2026 visar IREN en kortsiktig återhämtning inom en fortfarande svagare medel- och långsiktig trend. Stängningen 42,60 USD ligger 7,35 % över ett stigande 20-dagars medelvärde på 39,68 USD, men samtidigt 2,63 % under det fallande 50-dagars medelvärdet på 43,75 USD och 8,86 % under det fallande 200-dagars medelvärdet på 46,74 USD. Den positiva 20-dagarsutvecklingen på 4,98 % står mot en nedgång på 4,83 % över fem dagar. Momentum är därför avtagande snarare än tydligt positivt. Volymen ger ingen stark bekräftelse, samtidigt som den höga volatiliteten innebär att nivåer kan passeras med stora dagsrörelser.",
+  "trend": "Den korta trenden har förbättrats: SMA20 är stigande, har ökat med 2,51 % under fem dagar och ligger under aktuell stängning. Den bredare bilden är däremot svagare. SMA50 ligger på 43,75 USD, faller och har en femdagarslutning på -3,46 %. SMA200 ligger på 46,74 USD, faller och har en femdagarslutning på -0,96 %. Att kursen befinner sig över SMA20 men under både SMA50 och SMA200 beskriver en kortsiktig återhämtning som ännu inte har vänt de längre fallande trendmåtten. Kursen ligger dessutom 44,58 % under 52-veckorshögsta 76,87 USD från den 5 november 2025.",
+  "momentum": "Momentum är blandat. Avkastningen över 20 dagar är 4,98 %, men de senaste fem dagarna visar -4,83 % och den senaste dagen -0,56 %. RSI14 är 51,86, vilket ligger nära indikatorns mittområde och inte visar någon tydlig dominans från uppåt- eller nedåtriktat momentum. Kursen nådde den bekräftade pivot-toppen 49,19 USD den 13 augusti 2026 och har därefter fallit tillbaka till 42,60 USD. Dagens aktie öppnade efter ett negativt gap på 0,33 USD, handlades mellan 41,11 och 43,58 USD och stängde något över öppningen 42,51 USD. Det visar en viss intradagsåterhämtning från botten, men inte tillräckligt för att undvika den negativa dagsförändringen.",
+  "volume_and_volatility": "Senaste volymen var 44 884 439 aktier jämfört med det föregående 20-dagarssnittet på 46 666 265, med relativ volym 0,9618. Dagens nedgång skedde alltså på något lägre volym än jämförelsesnittet och ger inte någon ovanligt stark volymbekräftelse. ATR14 är 3,84 USD, motsvarande 9,02 % av kursen. Det är en stor normal rörelse i förhållande till prisnivån, vilket innebär att kortsiktiga nivåbrott behöver bedömas tillsammans med efterföljande prisutveckling snarare än som fristående signaler.",
+  "key_price_levels": "På nedsidan är dagens lägsta 41,11 USD den närmaste observerade nivån. Därefter följer det stigande SMA20 på 39,68 USD, den bekräftade pivot-botten 37,08 USD från den 6 augusti 2026 och 20-dagarslägsta 28,93 USD från den 29 juli 2026. Det bredare 52-veckorslägsta är 17,22 USD från den 20 augusti 2025. På ovansidan ligger dagens högsta 43,58 USD nära det fallande SMA50 på 43,75 USD. Högre upp finns det fallande SMA200 på 46,74 USD och den bekräftade pivot-toppen, som även är 20-dagarshögsta, på 49,19 USD. Det bredare 52-veckorshögsta är 76,87 USD.",
+  "scenarios": {
+    "bullish": "Om kursen etablerar sig över dagens högsta 43,58 USD och det fallande SMA50 på 43,75 USD skulle det visa att den kortsiktiga återhämtningen börjar övervinna närliggande medellångt motstånd. En fortsatt etablering över SMA200 på 46,74 USD och därefter över den bekräftade pivot-toppen 49,19 USD skulle innebära en tydligare förbättring av prisstrukturen. Detta beskriver vad nivåerna skulle signalera, inte en prognos eller ett kursmål.",
+    "neutral": "Om kursen fortsätter att röra sig mellan det stigande SMA20 på 39,68 USD och det fallande SMA50 på 43,75 USD kvarstår en tekniskt blandad konsolidering. Den korta återhämtningen skulle då vara intakt, men utan att den svagare medel- och långsiktiga trendbilden har vänt. Det bredare intervallet mellan pivot-botten 37,08 USD och pivot-toppen 49,19 USD skulle samtidigt förbli obrutet.",
+    "bearish": "Om kursen faller under dagens lägsta 41,11 USD och därefter under SMA20 på 39,68 USD skulle den kortsiktiga återhämtningen försvagas. Ett brott under den bekräftade pivot-botten 37,08 USD skulle innebära en tydligare försämring av den senaste prisstrukturen. I så fall blir 20-dagarslägsta 28,93 USD en viktig lägre referensnivå, inte ett förutspått kursmål."
+  },
+  "what_to_watch": [
+    "Om området mellan dagens högsta 43,58 USD och SMA50 på 43,75 USD återtas eller fortsätter att begränsa uppgången.",
+    "Om dagens lägsta 41,11 USD och det stigande SMA20 på 39,68 USD håller vid fortsatt svaghet.",
+    "Om priset förblir inom den bekräftade pivotstrukturen 37,08–49,19 USD eller etablerar sig utanför den.",
+    "Hur kursen reagerar kring SMA200 på 46,74 USD, eftersom detta medelvärde fortfarande faller.",
+    "Om framtida rörelser får tydligare volymstöd än senaste relativa volym 0,9618.",
+    "Den höga ATR14 på 3,84 USD, eller 9,02 %, eftersom den gör kortsiktiga prisrörelser och nivåtester stora i förhållande till kursen."
+  ],
+  "setup_summary": "Blandad struktur: kortsiktig återhämtning över stigande SMA20, men avtagande momentum och fortsatt fallande SMA50 och SMA200. Hög volatilitet ökar osäkerheten kring kortsiktiga nivåbrott.",
+  "fundamental_risk_context": "Fundamenten är endast separat riskkontext och ingår inte i den tekniska signalen. Rapportdatum är den 31 mars 2026 och rapportåldern är 142 dagar. Vid periodens slut redovisades 2 213 274 000 USD i kassa och likvida medel samt 3 964 913 000 USD i total skuld. Snapshotens härledning, total skuld minus kassa, ger en nettoskuld på 1 751 639 000 USD. Beloppen är periodslutsuppgifter för rapportdatumet och får inte beskrivas som aktuella saldon per den 20 augusti 2026.",
+  "limitations": [
+    "Analysen använder endast snapshotens marknadsdata till och med sessionen den 20 augusti 2026 och innebär inte att nyare marknadsinformation har beaktats.",
+    "Marknadsdatan anges som justerad, inte reparerad och inte inaktuell; market_data_age_days är 0 och inga marknadsdatavarningar har rapporterats. Detta utesluter inte osäkerheten som följer av den höga observerade volatiliteten.",
+    "Varningen fundamental_report_period_stale måste beaktas: rapportperioden slutade 142 kalenderdagar före snapshotdatumet, vilket överstiger den uttryckliga färskhetsgränsen på 120 dagar. Den praktiska följden är att kassa, skuld och nettoskuld endast beskriver läget den 31 mars 2026 och kan ha förändrats därefter.",
+    "De fundamentala uppgifterna kommer från yfinance-definitionerna i snapshoten och ska endast användas som historisk riskkontext, inte som bekräftelse eller motsägelse av den tekniska bilden.",
+    "Scenarierna är villkorade tolkningar av angivna nivåer. De uttrycker varken sannolikheter, prognoser, kursmål eller köp- och säljråd."
+  ],
+  "schema_version": "0.1",
+  "provider": "openai",
+  "model": "gpt-5.6-sol",
+  "effort": "high",
+  "prompt_version": "0.1",
+  "prompt_sha256": "81275b148555b5924b4c83c341b428b271d9bc0f8987f0161c6f1e08fd73ad51",
+  "snapshot_sha256": "0f31023ee986909634a999f27d0cfc28774bf3eadd2229e39e6ae378fc297ac8",
+  "ticker": "IREN",
+  "snapshot_as_of": "2026-08-20",
+  "snapshot_generated_at_utc": "2026-08-20T22:33:44.344430Z",
+  "run_metadata": {
+    "provider": "openai",
+    "model": "gpt-5.6-sol",
+    "effort": "high",
+    "token_usage": {
+      "input_tokens": 1533,
+      "output_tokens": 4083,
+      "total_tokens": 5616,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 1530,
+      "reasoning_tokens": 2070
+    },
+    "latency_ms": 74890.60620800592,
+    "response_id": "resp_0c30feb43428f549016a87859e0ce887d28374a740206c06ce",
+    "generated_at_utc": "2026-08-20T22:55:35.407917Z",
+    "estimated_cost": {
+      "model": "gpt-5.6-sol",
+      "currency": "USD",
+      "pricing_as_of": "2026-08-21",
+      "uncached_input_cost_usd": 0.000015,
+      "cached_input_cost_usd": 0.0,
+      "cache_write_input_cost_usd": 0.0095625,
+      "output_cost_usd": 0.12249,
+      "total_cost_usd": 0.1320675
+    }
+  }
+}

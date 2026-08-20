@@ -1,0 +1,67 @@
+{
+  "overall_bias": "mixed",
+  "overall_technical_picture": "Bilden för IREN Limited per 2026-08-20 är blandad. Aktien stängde på 42,60 USD, vilket är 7,35 % över det stigande 20-dagars glidande medelvärdet (39,68 USD) – ett tecken på styrka på kort sikt. Samtidigt ligger stängningskursen 2,63 % under det fallande 50-dagars medelvärdet (43,75 USD) och 8,86 % under det fallande 200-dagars medelvärdet (46,74 USD), vilket visar att den medellånga och långa trenden pekar nedåt. Kursen ligger dessutom 44,58 % under 52-veckorshögsta på 76,87 USD (2025-11-05). Sammantaget: en kortsiktig återhämtning inom en svagare långsiktig struktur, med hög volatilitet (ATR 9,02 % av kursen). Signalerna drar åt olika håll, varför helhetsbilden är blandad snarare än tydligt riktad.",
+  "trend": "Trenden skiljer sig beroende på tidshorisont. Det korta 20-dagars medelvärdet (39,68 USD) stiger (5-dagarslutning +2,51 %) och stängningskursen ligger 7,35 % över det – kortsiktigt positivt. Det medellånga 50-dagars medelvärdet (43,75 USD) faller (5-dagarslutning -3,46 %) och kursen ligger 2,63 % under det. Det långa 200-dagars medelvärdet (46,74 USD) faller också (5-dagarslutning -0,96 %) och kursen ligger 8,86 % under det. Kursen ligger även 44,58 % under 52-veckorshögsta (76,87 USD, 2025-11-05) men klart över 52-veckorslägsta (17,22 USD, 2025-08-20). Tolkning: aktien har haft en betydande nedgång från toppen och den längre trenden är fortfarande negativ, medan de senaste veckorna visat en uppstuds som lyft kursen över det korta medelvärdet men ännu inte över de längre.",
+  "momentum": "Momentumbilden är kluven. Över 20 dagar är avkastningen +4,98 %, vilket stödjer bilden av en kortsiktig återhämtning. Men de senaste 5 dagarna är avkastningen -4,83 % och senaste dagen -0,56 %, det vill säga uppstudsen har tappat fart alldeles nyligen. Dagens handel öppnade dessutom med ett negativt gap på -0,77 % (-0,33 USD). RSI-14 på 51,9 ligger nära mitten av skalan och ger ingen tydlig signal åt något håll – varken överköpt eller översålt. Sammantaget: positiv månadsutveckling men negativ veckoutveckling, vilket tyder på att köptrycket avtagit på kort sikt.",
+  "volume_and_volatility": "Dagens volym på cirka 44,9 miljoner aktier ligger nära det föregående 20-dagarssnittet på cirka 46,7 miljoner (relativ volym 0,96), vilket innebär att dagens nedgång inte skedde under ovanligt hög aktivitet – ingen tydlig signal om paniksäljning eller kapitulation. Volatiliteten är däremot hög: ATR-14 är 3,84 USD, motsvarande 9,02 % av kursen. Det betyder att dagliga rörelser på flera procent är normala för aktien just nu, vilket gör kursnivåer mindre precisa som signaler och innebär att stora svängningar kan ske utan att den underliggande bilden ändras. Dagens intervall (låg 41,11 – hög 43,58) illustrerar denna rörlighet.",
+  "key_price_levels": "Nivåer från ögonblicksbilden: stängning 42,60 USD. Under kursen: 20-dagars medelvärde 39,68 USD (kursen 7,35 % över), bekräftad pivotbotten 37,08 USD (2026-08-06), 20-dagarslägsta 28,93 USD (2026-07-29) och 52-veckorslägsta 17,22 USD (2025-08-20). Över kursen: 50-dagars medelvärde 43,75 USD (kursen 2,63 % under), 200-dagars medelvärde 46,74 USD (kursen 8,86 % under), bekräftad pivottopp tillika 20-dagarshögsta 49,19 USD (2026-08-13) och 52-veckorshögsta 76,87 USD (2025-11-05, kursen 44,58 % under). Zonen 43,75–46,74 USD (de två fallande medelvärdena) utgör det närmaste området av potentiellt motstånd, medan 39,68 och 37,08 USD är de närmaste stöden.",
+  "scenarios": {
+    "bullish": "Om kursen skulle ta sig upp genom och hålla sig över 50-dagars medelvärdet (43,75 USD) och därefter 200-dagars medelvärdet (46,74 USD) skulle det tekniskt innebära att den kortsiktiga styrkan börjar utmana den fallande medellånga och långa trenden. En rörelse förbi pivottoppen och 20-dagarshögsta på 49,19 USD (2026-08-13) skulle bekräfta att strukturen med lägre toppar bryts på kort sikt. Detta är villkorade beskrivningar av vad nivåerna skulle betyda, inte en prognos.",
+    "neutral": "Om kursen fortsätter att pendla mellan det stigande 20-dagars medelvärdet (39,68 USD) som stöd och de fallande 50- och 200-dagars medelvärdena (43,75 respektive 46,74 USD) som tak, förblir bilden blandad: kortsiktig stabilisering utan att den längre nedåtriktade trenden utmanas. Med en ATR på 9,02 % av kursen kan sådana pendlingar vara stora utan att strukturen ändras.",
+    "bearish": "Om kursen skulle falla under 20-dagars medelvärdet (39,68 USD) och därefter under den bekräftade pivotbotten 37,08 USD (2026-08-06) skulle den kortsiktiga återhämtningen tekniskt vara bruten, och fokus skulle flyttas mot 20-dagarslägsta 28,93 USD (2026-07-29). Det skulle innebära att den fallande långsiktiga trenden återtar kontrollen. Även detta är en villkorad nivåbeskrivning, inte en förutsägelse."
+  },
+  "what_to_watch": [
+    "Om kursen håller sig över det stigande 20-dagars medelvärdet (39,68 USD) eller faller under det.",
+    "Hur kursen beter sig i motståndszonen mellan 50-dagars (43,75 USD) och 200-dagars (46,74 USD) medelvärdena.",
+    "Den bekräftade pivotbotten 37,08 USD (2026-08-06) som närmaste strukturella stöd.",
+    "Pivottoppen/20-dagarshögsta 49,19 USD (2026-08-13) som närmaste strukturella motstånd.",
+    "Volymen relativt 20-dagarssnittet (senast 0,96) – tydligt förhöjd volym vid rörelser genom nivåerna skulle ge dem större teknisk vikt.",
+    "RSI-14 (nu 51,9) – en tydlig förskjutning från mittzonen skulle indikera att momentum tar riktning.",
+    "Volatiliteten (ATR-14 9,02 % av kursen) – fortsatt hög volatilitet gör nivåbrott mindre tillförlitliga."
+  ],
+  "setup_summary": "Blandad teknisk bild per 2026-08-20: kortsiktig återhämtning över ett stigande 20-dagars medelvärde, men kursen ligger under fallande 50- och 200-dagars medelvärden och 44,58 % under 52-veckorshögsta. Neutralt RSI, avtagande momentum senaste veckan och hög volatilitet. Nyckelzon: stöd 39,68/37,08 USD, motstånd 43,75–46,74 USD.",
+  "fundamental_risk_context": "Fundamental data finns tillgänglig men är daterad. Balansräkningsperioden slutade 2026-03-31, vilket är 142 dagar före ögonblicksbildens datum – detta överskrider den uttryckliga färskhetsgränsen på 120 dagar (varning: fundamental_report_period_stale). Per rapportdatumet 2026-03-31 redovisades likvida medel om 2 213 274 000 USD och total skuld om 3 964 913 000 USD, vilket ger en nettoskuld om 1 751 639 000 USD (beräknad som total skuld minus likvida medel). Dessa är periodens slutsiffror och får inte tolkas som bolagets aktuella kassa eller skuld – läget kan ha förändrats väsentligt sedan dess. Nettoskuldpositionen utgör en riskkontext att känna till, men den ingår inte i den tekniska signalen ovan.",
+  "limitations": [
+    "Fundamentalvarning (fundamental_report_period_stale): balansräkningsperioden slutade 142 dagar före ögonblicksbildens datum, vilket överskrider färskhetsgränsen på 120 dagar. Praktisk innebörd: kassa (2 213 274 000 USD) och total skuld (3 964 913 000 USD) är periodens slutsiffror per 2026-03-31 och kan inte användas som aktuella saldon; bolagets skuldsättning och likviditet kan ha förändrats sedan dess.",
+    "Analysen bygger uteslutande på den tillhandahållna ögonblicksbilden per 2026-08-20; ingen nyhetsinformation, extern data eller händelser efter detta datum har beaktats.",
+    "Hög volatilitet (ATR-14 motsvarande 9,02 % av kursen) gör att angivna prisnivåer är ungefärliga zoner snarare än exakta gränser.",
+    "Scenarierna är villkorade beskrivningar av vad angivna nivåer skulle betyda tekniskt – de är inte prognoser, sannolikheter, kursmål eller köp-/säljrekommendationer, och utgör inte personlig finansiell rådgivning.",
+    "Inga varningar om marknadsdatakvalitet fanns i ögonblicksbilden; marknadsdatan var 0 dagar gammal och inte inaktuell per genereringstillfället."
+  ],
+  "schema_version": "0.1",
+  "provider": "claude",
+  "model": "claude-fable-5",
+  "effort": "high",
+  "prompt_version": "0.2",
+  "prompt_sha256": "6c94797a55c1c2adde37940c7dcfb5b03bdfadd80af53f4bf3e09d79d3a3cea5",
+  "snapshot_sha256": "0f31023ee986909634a999f27d0cfc28774bf3eadd2229e39e6ae378fc297ac8",
+  "ticker": "IREN",
+  "snapshot_as_of": "2026-08-20",
+  "snapshot_generated_at_utc": "2026-08-20T22:33:44.344430Z",
+  "run_metadata": {
+    "provider": "claude",
+    "model": "claude-fable-5",
+    "effort": "high",
+    "token_usage": {
+      "input_tokens": 3101,
+      "output_tokens": 3907,
+      "total_tokens": 7008,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "reasoning_tokens": 276
+    },
+    "latency_ms": 59911.25091700815,
+    "response_id": "msg_011CeErRqjzBs6skdtSpFsMr",
+    "generated_at_utc": "2026-08-20T23:17:51.572336Z",
+    "estimated_cost": {
+      "model": "claude-fable-5",
+      "currency": "USD",
+      "pricing_as_of": "2026-08-21",
+      "uncached_input_cost_usd": 0.03101,
+      "cached_input_cost_usd": 0.0,
+      "cache_write_input_cost_usd": 0.0,
+      "output_cost_usd": 0.19535,
+      "total_cost_usd": 0.22636
+    }
+  }
+}

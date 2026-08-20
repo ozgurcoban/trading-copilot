@@ -1,0 +1,68 @@
+{
+  "overall_bias": "mixed",
+  "overall_technical_picture": "IREN Limited stängde den 20 augusti 2026 på 42,60 USD, en nedgång med 0,56 % för dagen. Den tekniska bilden är splittrad. På kort sikt finns en positiv underton: kursen ligger 7,35 % över det stigande 20-dagars glidande medelvärdet (39,68 USD) och har stigit 4,98 % de senaste 20 handelsdagarna. Samtidigt är den längre bilden svagare: kursen ligger 2,63 % under det fallande 50-dagarssnittet (43,75 USD) och 8,86 % under det fallande 200-dagarssnittet (46,74 USD), och stängningen ligger 44,58 % under 52-veckorshögsta på 76,87 USD (från 5 november 2025). De senaste fem dagarna har kursen fallit 4,83 %, vilket visar att den kortsiktiga uppgången tappat fart. RSI på 51,9 är nära mitten och ger ingen tydlig riktningssignal. Sammantaget: en kortsiktig återhämtning inom en svagare långsiktig struktur, med hög daglig volatilitet.",
+  "trend": "Trendbilden pekar åt olika håll beroende på tidshorisont. Det korta 20-dagarssnittet (39,68 USD) stiger, och dess lutning de senaste fem dagarna är +2,51 %, samtidigt som kursen ligger 7,35 % över det – ett kortsiktigt positivt tecken. Men både 50-dagarssnittet (43,75 USD) och 200-dagarssnittet (46,74 USD) faller, med femdagarslutningar på -3,46 % respektive -0,96 %, och kursen ligger under båda (-2,63 % respektive -8,86 %). Att kursen dessutom ligger 44,58 % under 52-veckorshögsta visar att den längre trenden fortfarande är nedåtriktad, trots det kortsiktiga lyftet från 20-dagarslägsta på 28,93 USD (29 juli 2026).",
+  "momentum": "Momentum är blandat och avtagande på kort sikt. Sett över 20 dagar är avkastningen +4,98 %, men de senaste fem dagarna har kursen fallit 4,83 % och den senaste dagen 0,56 %. Det tyder på att den tidigare uppgången bromsat in. RSI-14 på 51,9 ligger nära det neutrala mittläget 50, vilket innebär att varken köp- eller säljtrycket dominerar tydligt enligt denna indikator. Dagen öppnade dessutom med ett gap nedåt på 0,77 % (-0,33 USD), och kursen rörde sig under dagen i ett brett intervall mellan 41,11 och 43,58 USD.",
+  "volume_and_volatility": "Den senaste dagens volym var cirka 44,9 miljoner aktier, jämfört med ett snitt på cirka 46,7 miljoner de föregående 20 sessionerna, vilket ger en relativ volym på 0,96. Dagens nedgång skedde alltså inte på ovanligt hög aktivitet utan på ungefär normal handelsvolym. Volatiliteten är däremot hög: ATR-14 är 3,84 USD, motsvarande 9,02 % av kursen, vilket innebär att dagliga rörelser på flera procent är normala för aktien just nu. Dagens intervall mellan 41,11 och 43,58 USD speglar denna höga rörlighet.",
+  "key_price_levels": "Viktiga nivåer ur snapshoten: stängning 42,60 USD (dagens intervall 41,11–43,58 USD). Under kursen: 20-dagarssnittet 39,68 USD, den bekräftade pivotbotten 37,08 USD (6 augusti 2026), 20-dagarslägsta 28,93 USD (29 juli 2026) och 52-veckorslägsta 17,22 USD (20 augusti 2025). Över kursen: 50-dagarssnittet 43,75 USD, 200-dagarssnittet 46,74 USD, den bekräftade pivottoppen och 20-dagarshögsta 49,19 USD (13 augusti 2026) samt 52-veckorshögsta 76,87 USD (5 november 2025).",
+  "scenarios": {
+    "bullish": "Om kursen skulle ta sig upp över och hålla sig ovanför det fallande 50-dagarssnittet (43,75 USD) skulle en av de närmaste motståndsnivåerna vara återtagen. En rörelse vidare över 200-dagarssnittet (46,74 USD) och därefter över den bekräftade pivottoppen 49,19 USD (tillika 20-dagarshögsta) skulle skapa en ny kortsiktig strukturell signal uppåt och indikera att den längre nedtrenden utmanas.",
+    "neutral": "Så länge kursen rör sig mellan det stigande 20-dagarssnittet (39,68 USD) som stöd och 50-dagarssnittet (43,75 USD) som motstånd är bilden avvaktande. Med en ATR på 9,02 % av kursen kan aktien pendla brett inom detta intervall utan att den tekniska bilden förändras nämnvärt; RSI nära 52 stödjer tolkningen av ett neutralt läge.",
+    "bearish": "Om kursen skulle falla under det stigande 20-dagarssnittet (39,68 USD) skulle det kortsiktiga stödet försvagas. En stängning under den bekräftade pivotbotten 37,08 USD skulle skapa en ny kortsiktig strukturell signal nedåt, och därefter är nästa angivna nivåer 20-dagarslägsta 28,93 USD och 52-veckorslägsta 17,22 USD."
+  },
+  "what_to_watch": [
+    "Om kursen håller sig över det stigande 20-dagarssnittet på 39,68 USD eller faller igenom det.",
+    "Hur kursen agerar vid 50-dagarssnittet 43,75 USD – närmaste motstånd ovanför stängningen 42,60 USD.",
+    "Den bekräftade pivotbotten 37,08 USD: en stängning under skulle vara en ny kortsiktig strukturell signal nedåt.",
+    "Den bekräftade pivottoppen 49,19 USD: en stängning över skulle vara en ny kortsiktig strukturell signal uppåt.",
+    "Om RSI-14 (nu 51,9) rör sig tydligt bort från mittläget, vilket skulle indikera att momentum tar riktning.",
+    "Om relativ volym (nu 0,96) stiger markant i samband med rörelser genom viktiga nivåer.",
+    "Volatiliteten (ATR 9,02 % av kursen) – hög rörlighet innebär att nivåer kan testas snabbt."
+  ],
+  "setup_summary": "Blandad bild för IREN per 2026-08-20: kortsiktigt stöd av ett stigande 20-dagarssnitt (+7,35 % över), men kursen ligger under fallande 50- och 200-dagarssnitt och 44,58 % under 52-veckorshögsta. Neutralt RSI (51,9), avtagande femdagarsmomentum (-4,83 %) och hög volatilitet (ATR 9,02 %). Nyckelintervall: 39,68–43,75 USD.",
+  "fundamental_risk_context": "Senaste balansräkningen avser perioden som slutade 2026-03-31 och är 142 dagar gammal, vilket överskrider färskhetsgränsen på 120 dagar – siffrorna får inte tolkas som aktuella. Vid periodens slut hade bolaget en nettoskuld på cirka 1,75 miljarder USD.",
+  "limitations": [
+    "Fundamentavarning (fundamental_report_period_stale): den senaste balansräkningsperioden från yfinance slutade 2026-03-31, 142 kalenderdagar före snapshotens datum 2026-08-20, vilket överskrider den uttryckliga färskhetsgränsen på 120 dagar. Kassa och skuld är periodslutssiffror och får inte behandlas som aktuella saldon; bolagets finansiella ställning kan ha förändrats väsentligt sedan dess.",
+    "Detaljerade periodslutssiffror per 2026-03-31: kassa och likvida medel 2 213 274 000 USD, total skuld 3 964 913 000 USD, vilket ger en nettoskuld på 1 751 639 000 USD (total skuld minus kassa). Rapportvaluta: USD.",
+    "Analysen bygger uteslutande på den tillhandahållna TechnicalSnapshot per 2026-08-20 (dagsdata, 549 observationer, justerade priser från yfinance). Inga nyheter, externa data eller information efter detta datum har använts.",
+    "Pivotnivåerna (topp 49,19 USD och botten 37,08 USD) är enskilda bekräftade punkter och beskriver ingen historisk sekvens av toppar eller bottnar.",
+    "Relativ volym (0,96) beskriver endast observerad handelsaktivitet och kan inte användas för att dra slutsatser om aktörers avsikter eller marknadspsykologi.",
+    "Scenarierna är villkorliga beskrivningar av vad angivna nivåer skulle innebära – inte prognoser, sannolikheter, kursmål eller personlig finansiell rådgivning."
+  ],
+  "schema_version": "0.1",
+  "provider": "claude",
+  "model": "claude-fable-5",
+  "effort": "high",
+  "prompt_version": "0.3",
+  "prompt_sha256": "47124b16f62ec2a90b77ee6a82dfa753f04ffc5677231b6d21d11727668a9caf",
+  "snapshot_sha256": "0f31023ee986909634a999f27d0cfc28774bf3eadd2229e39e6ae378fc297ac8",
+  "ticker": "IREN",
+  "snapshot_as_of": "2026-08-20",
+  "snapshot_generated_at_utc": "2026-08-20T22:33:44.344430Z",
+  "run_metadata": {
+    "provider": "claude",
+    "model": "claude-fable-5",
+    "effort": "high",
+    "token_usage": {
+      "input_tokens": 3731,
+      "output_tokens": 3466,
+      "total_tokens": 7197,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "reasoning_tokens": 212
+    },
+    "latency_ms": 51417.207249993226,
+    "response_id": "msg_011CeEs8DaWeHKRdKqhhndeS",
+    "generated_at_utc": "2026-08-20T23:26:50.706812Z",
+    "estimated_cost": {
+      "model": "claude-fable-5",
+      "currency": "USD",
+      "pricing_as_of": "2026-08-21",
+      "uncached_input_cost_usd": 0.03731,
+      "cached_input_cost_usd": 0.0,
+      "cache_write_input_cost_usd": 0.0,
+      "output_cost_usd": 0.1733,
+      "total_cost_usd": 0.21061
+    }
+  }
+}
