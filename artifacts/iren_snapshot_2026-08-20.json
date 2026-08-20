@@ -1,0 +1,124 @@
+{
+  "current_candle": {
+    "close": 42.599998474121094,
+    "daily_change_absolute": -0.24000167846679688,
+    "daily_change_pct": -0.5602280056301479,
+    "date": "2026-08-20",
+    "gap_absolute": -0.3279991149902344,
+    "gap_pct": -0.7656375205928212,
+    "high": 43.58000183105469,
+    "low": 41.11050033569336,
+    "open": 42.512001037597656
+  },
+  "fundamental_risk_context": {
+    "cash": {
+      "definition": "Cash and cash equivalents reported by yfinance.",
+      "source_row": "CashAndCashEquivalents",
+      "value": 2213274000.0
+    },
+    "net_position": {
+      "amount": 1751639000.0,
+      "derivation": "total_debt - cash",
+      "kind": "net_debt"
+    },
+    "report_age_days": 142,
+    "report_date": "2026-03-31",
+    "reporting_currency": "USD",
+    "status": "available",
+    "total_debt": {
+      "definition": "Total debt reported directly by yfinance.",
+      "source_row": "TotalDebt",
+      "value": 3964913000.0
+    },
+    "warnings": [
+      {
+        "code": "fundamental_report_period_stale",
+        "message": "The latest yfinance balance-sheet period ended 142 calendar days before snapshot as_of. This exceeds the explicit 120-day freshness threshold; cash and debt are period-end figures and must not be treated as current balances."
+      }
+    ]
+  },
+  "instrument": {
+    "exchange": "NasdaqGS",
+    "exchange_timezone": "America/New_York",
+    "market_currency": "USD",
+    "name": "IREN Limited",
+    "ticker": "IREN"
+  },
+  "metadata": {
+    "adjusted": true,
+    "as_of_session": "2026-08-20",
+    "data_quality_warnings": [],
+    "generated_at_utc": "2026-08-20T22:15:37.561733Z",
+    "interval": "1d",
+    "is_stale": false,
+    "market_data_age_days": 0,
+    "observation_count": 549,
+    "repaired": false,
+    "requested_as_of": "2026-08-20",
+    "source": "yfinance",
+    "source_version": "1.5.2"
+  },
+  "momentum": {
+    "return_1d_pct": -0.5602280056301479,
+    "return_20d_pct": 4.977813089994898,
+    "return_5d_pct": -4.825737105474759,
+    "rsi_14": 51.856477782255716
+  },
+  "price_structure": {
+    "distance_from_52w_high_pct": -44.58176538049457,
+    "high_20d": {
+      "date": "2026-08-13",
+      "price": 49.185001373291016
+    },
+    "high_52w": {
+      "date": "2025-11-05",
+      "price": 76.87000274658203
+    },
+    "low_20d": {
+      "date": "2026-07-29",
+      "price": 28.93000030517578
+    },
+    "low_52w": {
+      "date": "2025-08-20",
+      "price": 17.219999313354492
+    },
+    "recent_confirmed_pivot_high": {
+      "date": "2026-08-13",
+      "price": 49.185001373291016
+    },
+    "recent_confirmed_pivot_low": {
+      "date": "2026-08-06",
+      "price": 37.08000183105469
+    }
+  },
+  "schema_version": "0.1",
+  "trend": {
+    "sma_20": {
+      "direction": "rising",
+      "distance_pct": 7.354809480317059,
+      "slope_5d_pct": 2.5096874747654097,
+      "value": 39.681499767303464
+    },
+    "sma_200": {
+      "direction": "falling",
+      "distance_pct": -8.862387678547668,
+      "slope_5d_pct": -0.9577386547359401,
+      "value": 46.74250003814697
+    },
+    "sma_50": {
+      "direction": "falling",
+      "distance_pct": -2.632580642218507,
+      "slope_5d_pct": -3.4641166146504587,
+      "value": 43.75179988861084
+    }
+  },
+  "volatility": {
+    "atr_14": 3.8426533600562913,
+    "atr_14_pct": 9.020313374871716
+  },
+  "volume": {
+    "average_20d_prior": 46666265.0,
+    "latest": 44884439.0,
+    "relative_volume": 0.96181768564508
+  }
+}
