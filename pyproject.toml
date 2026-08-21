@@ -14,8 +14,12 @@ dependencies = [
   "openai==3.3.1",
   "pandas>=2.2,<3",
   "pydantic>=2.10,<3",
+  "python-telegram-bot==22.8",
   "yfinance==1.5.2",
 ]
+
+[project.scripts]
+trading-copilot-bot = "trading_copilot.telegram.app:main"
 
 [project.optional-dependencies]
 dev = [

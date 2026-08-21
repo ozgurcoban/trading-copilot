@@ -72,3 +72,64 @@ The shared prompt requires every warning to be surfaced. Fundamental amounts
 must always be described as period-end values for `report_date`, never as the
 company's current cash, debt, or balance sheet. Identically named effort levels
 do not imply equivalent internal compute between providers.
+
+## Telegram (Milestone 3)
+
+Milestone 3 is a thin local Telegram interface. It adds no analysis logic and
+keeps the approved AI prompt frozen at v0.4. Copy the variable names from
+`.env.example` into the ignored local `.env` and set:
+
+```dotenv
+TELEGRAM_BOT_TOKEN=your_botfather_token
+TELEGRAM_ALLOWED_USER_IDS=your_numeric_telegram_user_id
+```
+
+Load the local environment and start long polling:
+
+```text
+set -a
+source .env
+set +a
+.venv/bin/python -m trading_copilot.telegram
+```
+
+Send one Yahoo-compatible ticker such as `IREN`. The bot builds exactly one
+immutable snapshot, stores it in memory for 15 minutes, and offers this inline
+keyboard:
+
+```text
+[ GPT-5.6 Sol ]
+[ Claude Opus 5 ] [ Claude Fable 5 ]
+[ Jämför alla ]
+```
+
+Callbacks are bound to the random pending-request ID, allowed user, private
+chat, and exact Telegram message, then consumed on first valid use. The bot
+acknowledges the callback and replaces the keyboard with `Analys pågår…` before
+starting a model call. The first result is one deterministic compact decision
+overview of at most 1,200 characters with price, bias, a two-sentence setup,
+moving-average direction, momentum, non-repeated support and resistance,
+one-sentence scenarios, up to three watch items, compact risk, latency, and
+estimated cost. It has a
+`Visa full analys` button bound to the allowed user, private chat, and exact
+compact message. The completed report stays in memory for 15 minutes and opening
+it performs no new snapshot or model call.
+
+The full view renders every `AnalysisReport` content field using Telegram HTML
+and deterministic chunks of at most 3,900 characters, below Telegram's
+4,096-character limit. Both views exclude `prompt_sha256`, `snapshot_sha256`,
+and provider response IDs from the normal user interface.
+
+`Jämför alla` runs the same snapshot separately through Sol, Opus, and Fable,
+then renders three labeled compact reports, each with its own full-report
+button, without a fourth summarizer. The bot has no
+webhook, database, scheduler, history, notifications, portfolio, or journal.
+
+## Future roadmap: Trade Decision Layer
+
+A separate Trade Decision Layer may later translate an approved technical
+analysis into explicit entry conditions, invalidation, risk/reward, and
+position sizing. It is intentionally not implemented in v0.1. The future layer
+must remain separate from `TechnicalSnapshot` and `AnalysisReport`, define its
+own validated schema and risk assumptions, and be evaluated independently
+before it can influence the Telegram output.

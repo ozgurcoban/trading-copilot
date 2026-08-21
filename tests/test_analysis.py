@@ -174,6 +174,61 @@ def test_analysis_input_is_deterministic_and_contains_complete_snapshot() -> Non
     assert "RSI is a momentum oscillator" in first.system_prompt
     assert "not a direct measure of buying pressure" in first.system_prompt
     assert "visar inget tydligt momentumövertag åt något håll" in first.system_prompt
+    assert (
+        "Prioritize technical significance over an indicator inventory"
+        in first.system_prompt
+    )
+    assert "no horizon clearly dominates" in first.system_prompt
+    assert "what is happening now, which horizon dominates" in first.system_prompt
+    assert "Use the first sentence to describe the current move" in first.system_prompt
+    assert "Kortsiktig återhämtning efter tidigare svaghet" in first.system_prompt
+    assert "SMA200 fortfarande faller" in first.system_prompt
+    assert "A marginal move through one shorter moving average" in first.system_prompt
+    assert 'Avoid generic weighting language such as "väger tyngst"' in first.system_prompt
+    assert "upptrendstrukturen fortfarande är intakt" in first.system_prompt
+    assert '"är fortfarande inte återtagen"' in first.system_prompt
+    assert '"begränsar den långsiktiga bilden"' in first.system_prompt
+    assert (
+        "Interpret RSI together with the supplied 5-day and 20-day returns"
+        in first.system_prompt
+    )
+    for technical_regime in (
+        "Kortsiktig återhämtning i svagare trend",
+        "Rekyl inom nedtrend",
+        "Stabilisering efter nedgång",
+        "Svaghet över flera tidshorisonter",
+        "Förbättrad trendbild",
+    ):
+        assert technical_regime in first.system_prompt
+    assert "reversal attempt (\"trendvändningsförsök\")" in first.system_prompt
+    assert "the earlier recovery has lost momentum" in first.system_prompt
+    assert "without a confirmed reversal" in first.system_prompt
+    assert 'short-term readings "confirm upward momentum"' in first.system_prompt
+    assert '"kortsiktig återhämtning" rather than the colloquial "studs"' in first.system_prompt
+    assert "same price area" in first.system_prompt
+    assert "Merely listing the components of a zone is insufficient" in first.system_prompt
+    assert "Rank them in this order" in first.system_prompt
+    assert "(1) confluence" in first.system_prompt
+    assert "(2) confirmed pivot levels" in first.system_prompt
+    assert "(3) relevant 20-day or 52-week highs and lows" in first.system_prompt
+    assert "lowest and highest supplied prices as the zone boundaries" in first.system_prompt
+    assert "the specific consequence of an established break" in first.system_prompt
+    assert "Build every scenario in this order" in first.system_prompt
+    assert "create a new 52-week high" in first.system_prompt
+    assert '"återta trendgränsen"' in first.system_prompt
+    assert '"skapa trendstyrka"' in first.system_prompt
+    assert '"skapa struktursignal"' in first.system_prompt
+    assert '"skulle placera kursen över SMA50"' in first.system_prompt
+    assert "köparna har återtagit kontroll över nivån" in first.system_prompt
+    assert "never as an inference from RSI, relative volume" in first.system_prompt
+    assert "shift focus back to the earlier weaker structure" in first.system_prompt
+    assert "Teknisk svaghet dominerar över flera tidshorisonter" in first.system_prompt
+    assert "rather than \"samstämmig nedtrend\"" in first.system_prompt
+    assert "The neutral scenario must describe the interval" in first.system_prompt
+    assert "never reduce it to saying that no structural break" in first.system_prompt
+    assert "each scenario one concise sentence" in first.system_prompt
+    assert "what_to_watch at most three short items" in first.system_prompt
+    assert "Do not add sections, sentences, or items" in first.system_prompt
 
 
 def test_analysis_content_rejects_blank_required_sections() -> None:
